@@ -15,12 +15,12 @@
     <%= javascript_include_tag  "all" %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="<%= page_classes %>" onload="taglineSelect()">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-push-1 header">
           <img class="title" src="../images/hi_logo_bw_text.svg"/>
-          <h1>Always cleans up after themselves</h1>
+          <h1 id="random-tagline"></h1>
         </div>
       </div>
       <div class="row">
