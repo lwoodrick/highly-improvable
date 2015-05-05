@@ -23,3 +23,7 @@ var taglineSelect = function() {
     }
   }
 };
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  taglineSelect();
+});
